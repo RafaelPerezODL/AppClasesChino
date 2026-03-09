@@ -609,22 +609,27 @@ body {
         min-width: 100px;
     }
 
-    /* Tabs */
+    /* Tabs — grid 2x2 on mobile so all 4 are always visible */
     .exercise-tabs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         gap: 0;
         padding: 0;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-        scrollbar-width: none;
     }
 
     .exercise-tabs::-webkit-scrollbar { display: none; }
 
     .tab-btn {
-        padding: 0.6rem 0.75rem;
-        font-size: 0.78rem;
+        padding: 0.55rem 0.5rem;
+        font-size: 0.8rem;
         white-space: nowrap;
         flex-shrink: 0;
+        border-radius: 0;
+        border-bottom: 2px solid var(--color-border);
+    }
+
+    .tab-btn.active {
+        border-bottom-color: var(--color-primary);
     }
 
     /* Drag & drop */
