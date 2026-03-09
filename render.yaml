@@ -3,7 +3,7 @@ services:
     name: xuzhongwen
     runtime: python
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn "app.main:create_app()" --bind 0.0.0.0:$PORT
+    startCommand: gunicorn wsgi:app --bind 0.0.0.0:$PORT --timeout 120
     envVars:
       - key: PYTHON_VERSION
         value: "3.11"
