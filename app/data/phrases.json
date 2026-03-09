@@ -1,0 +1,242 @@
+{
+  "phrases": [
+    {
+      "id": 1,
+      "hanzi": "你叫什么名字？",
+      "pinyin_words": ["nǐ", "jiào", "shénme", "míngzi"],
+      "translation": "¿Cómo te llamas?",
+      "lesson": "lección-1"
+    },
+    {
+      "id": 2,
+      "hanzi": "我叫大卫。",
+      "pinyin_words": ["wǒ", "jiào", "Dàwèi"],
+      "translation": "Me llamo David.",
+      "lesson": "lección-1"
+    },
+    {
+      "id": 3,
+      "hanzi": "她是我同学。",
+      "pinyin_words": ["tā", "shì", "wǒ", "tóngxué"],
+      "translation": "Ella es mi compañera de clase.",
+      "lesson": "lección-1"
+    },
+    {
+      "id": 4,
+      "hanzi": "你是中国人吗？",
+      "pinyin_words": ["nǐ", "shì", "Zhōngguórén", "ma"],
+      "translation": "¿Eres chino?",
+      "lesson": "lección-1"
+    },
+    {
+      "id": 5,
+      "hanzi": "她是您女儿吗？",
+      "pinyin_words": ["tā", "shì", "nín", "nǚ'ér", "ma"],
+      "translation": "¿Es ella su hija?",
+      "lesson": "lección-2"
+    },
+    {
+      "id": 6,
+      "hanzi": "她叫什么名字？",
+      "pinyin_words": ["tā", "jiào", "shénme", "míngzi"],
+      "translation": "¿Cómo se llama ella?",
+      "lesson": "lección-2"
+    },
+    {
+      "id": 7,
+      "hanzi": "她几岁了？",
+      "pinyin_words": ["tā", "jǐ", "suì", "le"],
+      "translation": "¿Cuántos años tiene ella?",
+      "lesson": "lección-2"
+    },
+    {
+      "id": 8,
+      "hanzi": "今年三岁。",
+      "pinyin_words": ["jīnnián", "sān", "suì"],
+      "translation": "Este año tiene tres años.",
+      "lesson": "lección-2"
+    },
+    {
+      "id": 9,
+      "hanzi": "你的狗很漂亮。",
+      "pinyin_words": ["nǐ", "de", "gǒu", "hěn", "piàoliang"],
+      "translation": "Tu perro es muy bonito.",
+      "lesson": "lección-2"
+    },
+    {
+      "id": 10,
+      "hanzi": "老师今年三十岁。",
+      "pinyin_words": ["lǎoshī", "jīnnián", "sānshí", "suì"],
+      "translation": "La profesora tiene treinta años este año.",
+      "lesson": "lección-2"
+    },
+    {
+      "id": 11,
+      "hanzi": "你的中文名字怎么读？",
+      "pinyin_words": ["nǐ", "de", "zhōngwén", "míngzi", "zěnme", "dú"],
+      "translation": "¿Cómo se pronuncia tu nombre chino?",
+      "lesson": "lección-3"
+    },
+    {
+      "id": 12,
+      "hanzi": "汉字怎么写？",
+      "pinyin_words": ["hànzì", "zěnme", "xiě"],
+      "translation": "¿Cómo se escriben los caracteres chinos?",
+      "lesson": "lección-3"
+    },
+    {
+      "id": 13,
+      "hanzi": "很多字我不会写。",
+      "pinyin_words": ["hěn", "duō", "zì", "wǒ", "bú", "huì", "xiě"],
+      "translation": "Muchos caracteres no sé escribir.",
+      "lesson": "lección-3"
+    },
+    {
+      "id": 14,
+      "hanzi": "没关系，你看。",
+      "pinyin_words": ["méi guānxi", "nǐ", "kàn"],
+      "translation": "No pasa nada, mira.",
+      "lesson": "lección-3"
+    },
+    {
+      "id": 15,
+      "hanzi": "这个中文怎么说？",
+      "pinyin_words": ["zhège", "zhōngwén", "zěnme", "shuō"],
+      "translation": "¿Cómo se dice esto en chino?",
+      "lesson": "lección-3"
+    },
+    {
+      "id": 16,
+      "hanzi": "你会做中国菜吗？",
+      "pinyin_words": ["nǐ", "huì", "zuò", "Zhōngguó cài", "ma"],
+      "translation": "¿Sabes cocinar comida china?",
+      "lesson": "lección-3"
+    },
+    {
+      "id": 17,
+      "hanzi": "今天我会写名字了。",
+      "pinyin_words": ["jīntiān", "wǒ", "huì", "xiě", "míngzi", "le"],
+      "translation": "Hoy ya sé escribir el nombre.",
+      "lesson": "lección-3"
+    },
+    {
+      "id": 18,
+      "hanzi": "中午你想吃什么？",
+      "pinyin_words": ["zhōngwǔ", "nǐ", "xiǎng", "chī", "shénme"],
+      "translation": "¿Qué quieres comer al mediodía?",
+      "lesson": "lección-4"
+    },
+    {
+      "id": 19,
+      "hanzi": "我想吃米饭和中国菜。",
+      "pinyin_words": ["wǒ", "xiǎng", "chī", "mǐfàn", "hé", "Zhōngguó cài"],
+      "translation": "Quiero comer arroz y comida china.",
+      "lesson": "lección-4"
+    },
+    {
+      "id": 20,
+      "hanzi": "你爱吃中国菜吗？",
+      "pinyin_words": ["nǐ", "ài", "chī", "Zhōngguó cài", "ma"],
+      "translation": "¿Te gusta comer comida china?",
+      "lesson": "lección-4"
+    },
+    {
+      "id": 21,
+      "hanzi": "我想学做中国菜。",
+      "pinyin_words": ["wǒ", "xiǎng", "xué", "zuò", "Zhōngguó cài"],
+      "translation": "Quiero aprender a cocinar comida china.",
+      "lesson": "lección-4"
+    },
+    {
+      "id": 22,
+      "hanzi": "明天你想做什么？",
+      "pinyin_words": ["míngtiān", "nǐ", "xiǎng", "zuò", "shénme"],
+      "translation": "¿Qué quieres hacer mañana?",
+      "lesson": "lección-4"
+    },
+    {
+      "id": 23,
+      "hanzi": "上午我想去商店买杯子。",
+      "pinyin_words": ["shàngwǔ", "wǒ", "xiǎng", "qù", "shāngdiàn", "mǎi", "bēizi"],
+      "translation": "Por la mañana quiero ir a la tienda a comprar un vaso.",
+      "lesson": "lección-4"
+    },
+    {
+      "id": 24,
+      "hanzi": "下午去学校学写字。",
+      "pinyin_words": ["xiàwǔ", "qù", "xuéxiào", "xué", "xiě", "zì"],
+      "translation": "Por la tarde ir a la escuela a aprender a escribir caracteres.",
+      "lesson": "lección-4"
+    },
+    {
+      "id": 25,
+      "hanzi": "你去哪儿？",
+      "pinyin_words": ["nǐ", "qù", "nǎr"],
+      "translation": "¿A dónde vas?",
+      "lesson": "lección-5"
+    },
+    {
+      "id": 26,
+      "hanzi": "我去天天商店。",
+      "pinyin_words": ["wǒ", "qù", "Tiāntiān", "shāngdiàn"],
+      "translation": "Voy a la tienda Tiantian.",
+      "lesson": "lección-5"
+    },
+    {
+      "id": 27,
+      "hanzi": "多少钱？",
+      "pinyin_words": ["duōshao", "qián"],
+      "translation": "¿Cuánto cuesta?",
+      "lesson": "lección-5"
+    },
+    {
+      "id": 28,
+      "hanzi": "二十块钱。谢谢！",
+      "pinyin_words": ["èrshí", "kuài", "qián", "xièxie"],
+      "translation": "Veinte kuai. ¡Gracias!",
+      "lesson": "lección-5"
+    },
+    {
+      "id": 29,
+      "hanzi": "这是你昨天买的杯子吗？",
+      "pinyin_words": ["zhè", "shì", "nǐ", "zuótiān", "mǎi", "de", "bēizi", "ma"],
+      "translation": "¿Es este el vaso que compraste ayer?",
+      "lesson": "lección-5"
+    },
+    {
+      "id": 30,
+      "hanzi": "很漂亮。多少钱一个？",
+      "pinyin_words": ["hěn", "piàoliang", "duōshao", "qián", "yí", "gè"],
+      "translation": "Muy bonito. ¿Cuánto cuesta cada uno?",
+      "lesson": "lección-5"
+    },
+    {
+      "id": 31,
+      "hanzi": "七十块钱一个。",
+      "pinyin_words": ["qīshí", "kuài", "qián", "yí", "gè"],
+      "translation": "Setenta kuai cada uno.",
+      "lesson": "lección-5"
+    },
+    {
+      "id": 32,
+      "hanzi": "你想买一个吗？",
+      "pinyin_words": ["nǐ", "xiǎng", "mǎi", "yí", "gè", "ma"],
+      "translation": "¿Quieres comprar uno?",
+      "lesson": "lección-5"
+    },
+    {
+      "id": 33,
+      "hanzi": "我不买，我有杯子。",
+      "pinyin_words": ["wǒ", "bù", "mǎi", "wǒ", "yǒu", "bēizi"],
+      "translation": "No compro, yo tengo vaso.",
+      "lesson": "lección-5"
+    },
+    {
+      "id": 34,
+      "hanzi": "她买了三个杯子。",
+      "pinyin_words": ["tā", "mǎi", "le", "sān", "gè", "bēizi"],
+      "translation": "Ella compró tres vasos.",
+      "lesson": "lección-5"
+    }
+  ]
+}

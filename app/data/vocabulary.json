@@ -1,0 +1,667 @@
+{
+  "tag_groups": {
+    "Lección": ["lección-1", "lección-2", "lección-3", "lección-4", "lección-5"],
+    "Tipo de palabra": ["pronombres", "verbos", "sustantivos", "adjetivos", "partículas", "adverbios", "números", "clasificadores", "expresiones"],
+    "Tema": ["familia", "tiempo", "comida", "animales", "lugares", "escuela", "países", "saludos"]
+  },
+  "words": [
+    {
+      "id": 1,
+      "hanzi": "你",
+      "pinyin": "nǐ",
+      "translation": "tú",
+      "tags": ["lección-1", "pronombres"]
+    },
+    {
+      "id": 2,
+      "hanzi": "好",
+      "pinyin": "hǎo",
+      "translation": "bien; bueno",
+      "tags": ["lección-1", "adjetivos", "saludos"]
+    },
+    {
+      "id": 3,
+      "hanzi": "我",
+      "pinyin": "wǒ",
+      "translation": "yo",
+      "tags": ["lección-1", "pronombres"]
+    },
+    {
+      "id": 4,
+      "hanzi": "叫",
+      "pinyin": "jiào",
+      "translation": "llamarse",
+      "tags": ["lección-1", "verbos"]
+    },
+    {
+      "id": 5,
+      "hanzi": "什么",
+      "pinyin": "shénme",
+      "translation": "qué",
+      "tags": ["lección-1", "pronombres"]
+    },
+    {
+      "id": 6,
+      "hanzi": "名字",
+      "pinyin": "míngzi",
+      "translation": "nombre",
+      "tags": ["lección-1", "sustantivos"]
+    },
+    {
+      "id": 7,
+      "hanzi": "是",
+      "pinyin": "shì",
+      "translation": "ser; estar",
+      "tags": ["lección-1", "verbos"]
+    },
+    {
+      "id": 8,
+      "hanzi": "人",
+      "pinyin": "rén",
+      "translation": "persona; gente",
+      "tags": ["lección-1", "sustantivos"]
+    },
+    {
+      "id": 9,
+      "hanzi": "呢",
+      "pinyin": "ne",
+      "translation": "partícula interrogativa (¿y tú?)",
+      "tags": ["lección-1", "partículas"]
+    },
+    {
+      "id": 10,
+      "hanzi": "爸爸",
+      "pinyin": "bàba",
+      "translation": "papá",
+      "tags": ["lección-1", "sustantivos", "familia"]
+    },
+    {
+      "id": 11,
+      "hanzi": "妈妈",
+      "pinyin": "māma",
+      "translation": "mamá",
+      "tags": ["lección-1", "sustantivos", "familia"]
+    },
+    {
+      "id": 12,
+      "hanzi": "同学",
+      "pinyin": "tóngxué",
+      "translation": "compañero/a de clase",
+      "tags": ["lección-1", "sustantivos", "escuela"]
+    },
+    {
+      "id": 13,
+      "hanzi": "老师",
+      "pinyin": "lǎoshī",
+      "translation": "profesor/a",
+      "tags": ["lección-1", "sustantivos", "escuela"]
+    },
+    {
+      "id": 14,
+      "hanzi": "你们",
+      "pinyin": "nǐmen",
+      "translation": "vosotros; ustedes",
+      "tags": ["lección-1", "pronombres"]
+    },
+    {
+      "id": 15,
+      "hanzi": "的",
+      "pinyin": "de",
+      "translation": "de (posesivo)",
+      "tags": ["lección-1", "partículas"]
+    },
+    {
+      "id": 16,
+      "hanzi": "中文",
+      "pinyin": "zhōngwén",
+      "translation": "chino (idioma)",
+      "tags": ["lección-1", "sustantivos", "escuela"]
+    },
+    {
+      "id": 17,
+      "hanzi": "她",
+      "pinyin": "tā",
+      "translation": "ella",
+      "tags": ["lección-1", "pronombres"]
+    },
+    {
+      "id": 18,
+      "hanzi": "他",
+      "pinyin": "tā",
+      "translation": "él",
+      "tags": ["lección-1", "pronombres"]
+    },
+    {
+      "id": 19,
+      "hanzi": "英国",
+      "pinyin": "Yīngguó",
+      "translation": "Inglaterra; Reino Unido",
+      "tags": ["lección-1", "sustantivos", "países"]
+    },
+    {
+      "id": 20,
+      "hanzi": "中国",
+      "pinyin": "Zhōngguó",
+      "translation": "China",
+      "tags": ["lección-1", "sustantivos", "países"]
+    },
+    {
+      "id": 21,
+      "hanzi": "墨西哥",
+      "pinyin": "Mòxīgē",
+      "translation": "México",
+      "tags": ["lección-1", "sustantivos", "países"]
+    },
+    {
+      "id": 22,
+      "hanzi": "您",
+      "pinyin": "nín",
+      "translation": "usted (formal)",
+      "tags": ["lección-2", "pronombres"]
+    },
+    {
+      "id": 23,
+      "hanzi": "几",
+      "pinyin": "jǐ",
+      "translation": "cuántos; algunos",
+      "tags": ["lección-2", "pronombres"]
+    },
+    {
+      "id": 24,
+      "hanzi": "了",
+      "pinyin": "le",
+      "translation": "partícula de cambio o situación nueva",
+      "tags": ["lección-2", "partículas"]
+    },
+    {
+      "id": 25,
+      "hanzi": "苹果",
+      "pinyin": "píngguǒ",
+      "translation": "manzana",
+      "tags": ["lección-2", "sustantivos", "comida"]
+    },
+    {
+      "id": 26,
+      "hanzi": "家",
+      "pinyin": "jiā",
+      "translation": "familia; hogar; casa",
+      "tags": ["lección-2", "sustantivos", "familia"]
+    },
+    {
+      "id": 27,
+      "hanzi": "吗",
+      "pinyin": "ma",
+      "translation": "partícula de pregunta (sí/no)",
+      "tags": ["lección-2", "partículas"]
+    },
+    {
+      "id": 28,
+      "hanzi": "多",
+      "pinyin": "duō",
+      "translation": "mucho; cuánto",
+      "tags": ["lección-2", "adjetivos"]
+    },
+    {
+      "id": 29,
+      "hanzi": "个",
+      "pinyin": "gè",
+      "translation": "clasificador genérico",
+      "tags": ["lección-2", "clasificadores"]
+    },
+    {
+      "id": 30,
+      "hanzi": "漂亮",
+      "pinyin": "piàoliang",
+      "translation": "bonito/a; guapo/a",
+      "tags": ["lección-2", "adjetivos"]
+    },
+    {
+      "id": 31,
+      "hanzi": "女儿",
+      "pinyin": "nǚ'ér",
+      "translation": "hija",
+      "tags": ["lección-2", "sustantivos", "familia"]
+    },
+    {
+      "id": 32,
+      "hanzi": "岁",
+      "pinyin": "suì",
+      "translation": "años (de edad)",
+      "tags": ["lección-2", "sustantivos", "tiempo"]
+    },
+    {
+      "id": 33,
+      "hanzi": "小",
+      "pinyin": "xiǎo",
+      "translation": "pequeño/a",
+      "tags": ["lección-2", "adjetivos"]
+    },
+    {
+      "id": 34,
+      "hanzi": "今年",
+      "pinyin": "jīnnián",
+      "translation": "este año",
+      "tags": ["lección-2", "sustantivos", "tiempo"]
+    },
+    {
+      "id": 35,
+      "hanzi": "这",
+      "pinyin": "zhè",
+      "translation": "este; esta; esto",
+      "tags": ["lección-2", "pronombres"]
+    },
+    {
+      "id": 36,
+      "hanzi": "狗",
+      "pinyin": "gǒu",
+      "translation": "perro",
+      "tags": ["lección-2", "sustantivos", "animales"]
+    },
+    {
+      "id": 37,
+      "hanzi": "现在",
+      "pinyin": "xiànzài",
+      "translation": "ahora",
+      "tags": ["lección-2", "sustantivos", "tiempo"]
+    },
+    {
+      "id": 38,
+      "hanzi": "大",
+      "pinyin": "dà",
+      "translation": "grande",
+      "tags": ["lección-2", "adjetivos"]
+    },
+    {
+      "id": 39,
+      "hanzi": "零",
+      "pinyin": "líng",
+      "translation": "cero",
+      "tags": ["lección-2", "números"]
+    },
+    {
+      "id": 40,
+      "hanzi": "月",
+      "pinyin": "yuè",
+      "translation": "mes; luna",
+      "tags": ["lección-2", "sustantivos", "tiempo"]
+    },
+    {
+      "id": 41,
+      "hanzi": "很",
+      "pinyin": "hěn",
+      "translation": "muy",
+      "tags": ["lección-2", "adverbios"]
+    },
+    {
+      "id": 42,
+      "hanzi": "一",
+      "pinyin": "yī",
+      "translation": "uno",
+      "tags": ["lección-2", "números"]
+    },
+    {
+      "id": 43,
+      "hanzi": "二",
+      "pinyin": "èr",
+      "translation": "dos",
+      "tags": ["lección-2", "números"]
+    },
+    {
+      "id": 44,
+      "hanzi": "三",
+      "pinyin": "sān",
+      "translation": "tres",
+      "tags": ["lección-2", "números"]
+    },
+    {
+      "id": 45,
+      "hanzi": "四",
+      "pinyin": "sì",
+      "translation": "cuatro",
+      "tags": ["lección-2", "números"]
+    },
+    {
+      "id": 46,
+      "hanzi": "五",
+      "pinyin": "wǔ",
+      "translation": "cinco",
+      "tags": ["lección-2", "números"]
+    },
+    {
+      "id": 47,
+      "hanzi": "六",
+      "pinyin": "liù",
+      "translation": "seis",
+      "tags": ["lección-2", "números"]
+    },
+    {
+      "id": 48,
+      "hanzi": "七",
+      "pinyin": "qī",
+      "translation": "siete",
+      "tags": ["lección-2", "números"]
+    },
+    {
+      "id": 49,
+      "hanzi": "八",
+      "pinyin": "bā",
+      "translation": "ocho",
+      "tags": ["lección-2", "números"]
+    },
+    {
+      "id": 50,
+      "hanzi": "九",
+      "pinyin": "jiǔ",
+      "translation": "nueve",
+      "tags": ["lección-2", "números"]
+    },
+    {
+      "id": 51,
+      "hanzi": "十",
+      "pinyin": "shí",
+      "translation": "diez",
+      "tags": ["lección-2", "números"]
+    },
+    {
+      "id": 52,
+      "hanzi": "怎么",
+      "pinyin": "zěnme",
+      "translation": "cómo",
+      "tags": ["lección-3", "pronombres"]
+    },
+    {
+      "id": 53,
+      "hanzi": "读",
+      "pinyin": "dú",
+      "translation": "leer; pronunciar",
+      "tags": ["lección-3", "verbos", "escuela"]
+    },
+    {
+      "id": 54,
+      "hanzi": "汉字",
+      "pinyin": "hànzì",
+      "translation": "caracteres chinos",
+      "tags": ["lección-3", "sustantivos", "escuela"]
+    },
+    {
+      "id": 55,
+      "hanzi": "写",
+      "pinyin": "xiě",
+      "translation": "escribir",
+      "tags": ["lección-3", "verbos", "escuela"]
+    },
+    {
+      "id": 56,
+      "hanzi": "对不起",
+      "pinyin": "duìbuqǐ",
+      "translation": "lo siento; perdón",
+      "tags": ["lección-3", "expresiones"]
+    },
+    {
+      "id": 57,
+      "hanzi": "字",
+      "pinyin": "zì",
+      "translation": "carácter; letra",
+      "tags": ["lección-3", "sustantivos", "escuela"]
+    },
+    {
+      "id": 58,
+      "hanzi": "会",
+      "pinyin": "huì",
+      "translation": "saber; poder (habilidad aprendida)",
+      "tags": ["lección-3", "verbos"]
+    },
+    {
+      "id": 59,
+      "hanzi": "没关系",
+      "pinyin": "méi guānxi",
+      "translation": "no pasa nada; no importa",
+      "tags": ["lección-3", "expresiones"]
+    },
+    {
+      "id": 60,
+      "hanzi": "看",
+      "pinyin": "kàn",
+      "translation": "mirar; ver",
+      "tags": ["lección-3", "verbos"]
+    },
+    {
+      "id": 61,
+      "hanzi": "这么",
+      "pinyin": "zhème",
+      "translation": "así; de esta manera",
+      "tags": ["lección-3", "adverbios"]
+    },
+    {
+      "id": 62,
+      "hanzi": "说",
+      "pinyin": "shuō",
+      "translation": "hablar; decir",
+      "tags": ["lección-3", "verbos"]
+    },
+    {
+      "id": 63,
+      "hanzi": "上午",
+      "pinyin": "shàngwǔ",
+      "translation": "mañana (parte del día)",
+      "tags": ["lección-4", "sustantivos", "tiempo"]
+    },
+    {
+      "id": 64,
+      "hanzi": "中午",
+      "pinyin": "zhōngwǔ",
+      "translation": "mediodía",
+      "tags": ["lección-4", "sustantivos", "tiempo"]
+    },
+    {
+      "id": 65,
+      "hanzi": "下午",
+      "pinyin": "xiàwǔ",
+      "translation": "tarde",
+      "tags": ["lección-4", "sustantivos", "tiempo"]
+    },
+    {
+      "id": 66,
+      "hanzi": "想",
+      "pinyin": "xiǎng",
+      "translation": "querer; desear; echar de menos",
+      "tags": ["lección-4", "verbos"]
+    },
+    {
+      "id": 67,
+      "hanzi": "吃",
+      "pinyin": "chī",
+      "translation": "comer",
+      "tags": ["lección-4", "verbos", "comida"]
+    },
+    {
+      "id": 68,
+      "hanzi": "米饭",
+      "pinyin": "mǐfàn",
+      "translation": "arroz cocido",
+      "tags": ["lección-4", "sustantivos", "comida"]
+    },
+    {
+      "id": 69,
+      "hanzi": "爱",
+      "pinyin": "ài",
+      "translation": "amar; encantar",
+      "tags": ["lección-4", "verbos"]
+    },
+    {
+      "id": 70,
+      "hanzi": "学",
+      "pinyin": "xué",
+      "translation": "aprender; estudiar",
+      "tags": ["lección-4", "verbos", "escuela"]
+    },
+    {
+      "id": 71,
+      "hanzi": "做",
+      "pinyin": "zuò",
+      "translation": "hacer",
+      "tags": ["lección-3", "lección-4", "verbos"]
+    },
+    {
+      "id": 72,
+      "hanzi": "菜",
+      "pinyin": "cài",
+      "translation": "plato; verdura; comida",
+      "tags": ["lección-3", "lección-4", "sustantivos", "comida"]
+    },
+    {
+      "id": 73,
+      "hanzi": "明天",
+      "pinyin": "míngtiān",
+      "translation": "mañana (día siguiente)",
+      "tags": ["lección-4", "sustantivos", "tiempo"]
+    },
+    {
+      "id": 74,
+      "hanzi": "商店",
+      "pinyin": "shāngdiàn",
+      "translation": "tienda",
+      "tags": ["lección-4", "sustantivos", "lugares"]
+    },
+    {
+      "id": 75,
+      "hanzi": "买",
+      "pinyin": "mǎi",
+      "translation": "comprar",
+      "tags": ["lección-4", "verbos"]
+    },
+    {
+      "id": 76,
+      "hanzi": "杯子",
+      "pinyin": "bēizi",
+      "translation": "vaso; taza",
+      "tags": ["lección-4", "sustantivos"]
+    },
+    {
+      "id": 77,
+      "hanzi": "去",
+      "pinyin": "qù",
+      "translation": "ir",
+      "tags": ["lección-4", "verbos"]
+    },
+    {
+      "id": 78,
+      "hanzi": "饭馆",
+      "pinyin": "fànguǎn",
+      "translation": "restaurante",
+      "tags": ["lección-4", "sustantivos", "lugares", "comida"]
+    },
+    {
+      "id": 79,
+      "hanzi": "今天",
+      "pinyin": "jīntiān",
+      "translation": "hoy",
+      "tags": ["lección-3", "sustantivos", "tiempo"]
+    },
+    {
+      "id": 80,
+      "hanzi": "三十",
+      "pinyin": "sānshí",
+      "translation": "treinta",
+      "tags": ["lección-2", "números"]
+    },
+    {
+      "id": 81,
+      "hanzi": "中国菜",
+      "pinyin": "Zhōngguó cài",
+      "translation": "comida china",
+      "tags": ["lección-3", "sustantivos", "comida"]
+    },
+    {
+      "id": 82,
+      "hanzi": "星期",
+      "pinyin": "xīngqī",
+      "translation": "semana",
+      "tags": ["lección-4", "sustantivos", "tiempo"]
+    },
+    {
+      "id": 83,
+      "hanzi": "学校",
+      "pinyin": "xuéxiào",
+      "translation": "escuela",
+      "tags": ["lección-4", "sustantivos", "escuela", "lugares"]
+    },
+    {
+      "id": 84,
+      "hanzi": "出租车",
+      "pinyin": "chūzūchē",
+      "translation": "taxi",
+      "tags": ["lección-5", "sustantivos", "lugares"]
+    },
+    {
+      "id": 85,
+      "hanzi": "司机",
+      "pinyin": "sījī",
+      "translation": "conductor; chófer",
+      "tags": ["lección-5", "sustantivos"]
+    },
+    {
+      "id": 86,
+      "hanzi": "哪儿",
+      "pinyin": "nǎr",
+      "translation": "dónde",
+      "tags": ["lección-5", "pronombres"]
+    },
+    {
+      "id": 87,
+      "hanzi": "多少",
+      "pinyin": "duōshao",
+      "translation": "cuánto; cuántos",
+      "tags": ["lección-5", "pronombres"]
+    },
+    {
+      "id": 88,
+      "hanzi": "钱",
+      "pinyin": "qián",
+      "translation": "dinero",
+      "tags": ["lección-5", "sustantivos"]
+    },
+    {
+      "id": 89,
+      "hanzi": "块",
+      "pinyin": "kuài",
+      "translation": "kuai (unidad oral de yuan)",
+      "tags": ["lección-5", "clasificadores"]
+    },
+    {
+      "id": 90,
+      "hanzi": "元",
+      "pinyin": "yuán",
+      "translation": "yuan (unidad monetaria china)",
+      "tags": ["lección-5", "clasificadores"]
+    },
+    {
+      "id": 91,
+      "hanzi": "谢谢",
+      "pinyin": "xièxie",
+      "translation": "gracias",
+      "tags": ["lección-5", "expresiones", "saludos"]
+    },
+    {
+      "id": 92,
+      "hanzi": "昨天",
+      "pinyin": "zuótiān",
+      "translation": "ayer",
+      "tags": ["lección-5", "sustantivos", "tiempo"]
+    },
+    {
+      "id": 93,
+      "hanzi": "有",
+      "pinyin": "yǒu",
+      "translation": "tener; haber",
+      "tags": ["lección-5", "verbos"]
+    },
+    {
+      "id": 94,
+      "hanzi": "没有",
+      "pinyin": "méiyǒu",
+      "translation": "no tener; no haber",
+      "tags": ["lección-5", "adverbios"]
+    }
+  ]
+}

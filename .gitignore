@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Debug files
+debug_audio.webm
+
+# PDFs de lecciones (grandes)
+Lecciones/
+
+# Scripts de generación (no necesarios en producción)
+generate_audio.py
+generate_phrase_audio.py
+generate_icons.py

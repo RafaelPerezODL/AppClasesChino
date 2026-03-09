@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#c0392b">
+    <title>学中文 — Practica Chino</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="manifest" href="/static/manifest.json">
+    <link rel="apple-touch-icon" href="/static/icons/icon-192.png">
+</head>
+<body>
+    <!-- ═══════════════ CABECERA ═══════════════ -->
+    <header class="app-header">
+        <button class="btn-sidebar-toggle hidden" id="btn-sidebar-toggle" title="Filtros">☰</button>
+        <h1>🀄 学中文</h1>
+        <p class="subtitle">Practica vocabulario y frases</p>
+        <button class="btn-settings" id="btn-settings" title="Configuración">⚙️</button>
+    </header>
+
+    <!-- ═══════════════ POPUP CONFIGURACIÓN ═══════════════ -->
+    <div class="settings-overlay hidden" id="settings-overlay">
+        <div class="settings-popup">
+            <div class="settings-header">
+                <h2>⚙️ Configuración</h2>
+                <button class="settings-close" id="settings-close">✕</button>
+            </div>
+            <div class="settings-body">
+                <label class="settings-label" for="api-key-input">OpenAI API Key</label>
+                <p class="settings-hint">Necesaria para el ejercicio de conversación con IA</p>
+                <div class="settings-input-row">
+                    <input type="password" id="api-key-input" class="settings-input" placeholder="sk-..." autocomplete="off">
+                    <button class="btn-toggle-vis" id="btn-toggle-key" title="Mostrar/ocultar">👁️</button>
+                </div>
+                <button class="btn btn-primary settings-save" id="btn-save-key">Guardar</button>
+                <p class="settings-status hidden" id="settings-status">✅ Guardada</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════════ TABS DE EJERCICIO ═══════════════ -->
+    <nav class="exercise-tabs">
+        <button class="tab-btn active" data-mode="flashcards">🃏 Flashcards</button>
+        <button class="tab-btn" data-mode="drag-drop">🧩 Ordena la Frase</button>
+        <button class="tab-btn" data-mode="matching">🔗 Emparejamiento</button>
+        <button class="tab-btn" data-mode="conversation">💬 Conversación</button>
+    </nav>
+
+    <!-- Backdrop for mobile sidebar -->
+    <div class="sidebar-backdrop hidden" id="sidebar-backdrop"></div>
+
+    <!-- ═══════════════ CONTENEDOR PRINCIPAL ═══════════════ -->
+    <main class="app-main">
+
+        <!-- ── Panel lateral: filtros por tags ── -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h2>Filtrar por tags</h2>
+                <button class="btn-text" id="btn-clear-tags">Limpiar filtros</button>
+            </div>
+            <div id="tag-groups"></div>
+        </aside>
+
+        <!-- ══════════ MODO FLASHCARDS ══════════ -->
+        <section class="flashcard-area" id="mode-flashcards">
+
+            <!-- Controles superiores -->
+            <div class="deck-info">
+                <span id="card-counter">0 / 0</span>
+                <button class="btn-icon" id="btn-shuffle" title="Barajar">🔀</button>
+            </div>
+
+            <!-- La tarjeta -->
+            <div class="card-wrapper">
+                <div class="card" id="flashcard">
+                    <div class="card-content" id="card-content">
+                        <p class="hanzi" id="hanzi">准备好了吗？</p>
+                        <p class="pinyin hidden" id="pinyin"></p>
+                        <p class="translation hidden" id="translation"></p>
+                        <button class="btn-audio hidden" id="btn-audio" title="Escuchar pronunciación">
+                            🔊
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Botones de acción -->
+            <div class="card-actions">
+                <button class="btn btn-secondary" id="btn-prev" disabled>← Anterior</button>
+                <button class="btn btn-primary"   id="btn-reveal">Ver Pinyin</button>
+                <button class="btn btn-secondary" id="btn-next" disabled>Siguiente →</button>
+            </div>
+
+            <!-- Mensaje cuando no hay tarjetas -->
+            <div class="empty-state hidden" id="empty-state">
+                <p class="empty-icon">📭</p>
+                <p>No hay palabras con los filtros seleccionados.</p>
+                <p class="empty-hint">Prueba a seleccionar otros tags.</p>
+            </div>
+        </section>
+
+        <!-- ══════════ MODO DRAG & DROP ══════════ -->
+        <section class="drag-drop-area hidden" id="mode-drag-drop">
+
+            <!-- Controles superiores -->
+            <div class="deck-info">
+                <span id="dd-counter">0 / 0</span>
+                <button class="btn-icon" id="dd-btn-shuffle" title="Barajar frases">🔀</button>
+            </div>
+
+            <!-- Instrucciones -->
+            <div class="dd-instructions">
+                <p>🎧 Escucha la frase y ordena las palabras en pinyin</p>
+            </div>
+
+            <!-- Botón de audio grande -->
+            <div class="dd-audio-section">
+                <button class="btn-audio-large" id="dd-btn-audio" title="Escuchar frase">
+                    🔊
+                </button>
+                <p class="dd-audio-hint">Pulsa para escuchar</p>
+            </div>
+
+            <!-- Zona de destino (donde se colocan las piezas) -->
+            <div class="dd-drop-zone" id="dd-drop-zone">
+                <p class="dd-drop-placeholder" id="dd-placeholder">Arrastra las palabras aquí en orden</p>
+            </div>
+
+            <!-- Piezas de pinyin para arrastrar -->
+            <div class="dd-pieces" id="dd-pieces">
+            </div>
+
+            <!-- Resultado -->
+            <div class="dd-result hidden" id="dd-result">
+                <div class="dd-result-content">
+                    <p class="dd-result-icon">✅</p>
+                    <p class="dd-result-hanzi" id="dd-result-hanzi"></p>
+                    <p class="dd-result-translation" id="dd-result-translation"></p>
+                </div>
+            </div>
+
+            <!-- Botones de acción -->
+            <div class="card-actions" id="dd-actions">
+                <button class="btn btn-secondary" id="dd-btn-prev" disabled>← Anterior</button>
+                <button class="btn btn-primary"   id="dd-btn-check" disabled>Comprobar</button>
+                <button class="btn btn-secondary" id="dd-btn-next" disabled>Siguiente →</button>
+            </div>
+
+            <!-- Mensaje cuando no hay frases -->
+            <div class="empty-state hidden" id="dd-empty-state">
+                <p class="empty-icon">📭</p>
+                <p>No hay frases con los filtros seleccionados.</p>
+                <p class="empty-hint">Prueba a seleccionar otros tags.</p>
+            </div>
+        </section>
+
+        <!-- ══════════ MODO EMPAREJAMIENTO ══════════ -->
+        <section class="matching-area hidden" id="mode-matching">
+
+            <!-- Selector de sub-modo -->
+            <div class="match-mode-selector">
+                <button class="match-mode-btn active" data-matchmode="hanzi-pinyin">漢字 → Pinyin</button>
+                <button class="match-mode-btn" data-matchmode="pinyin-spanish">Pinyin → Español</button>
+            </div>
+
+            <!-- Controles superiores -->
+            <div class="deck-info">
+                <span id="match-score">0 / 0</span>
+                <span id="match-round-info"></span>
+                <button class="btn-icon" id="match-btn-new" title="Nueva ronda">🔄</button>
+            </div>
+
+            <!-- Instrucciones -->
+            <div class="match-instructions">
+                <p id="match-instructions-text">Selecciona un elemento de cada columna para emparejarlos</p>
+            </div>
+
+            <!-- Tablero de emparejamiento -->
+            <div class="match-board" id="match-board">
+                <div class="match-column" id="match-col-left">
+                    <div class="match-col-header" id="match-header-left">漢字</div>
+                </div>
+                <div class="match-column" id="match-col-right">
+                    <div class="match-col-header" id="match-header-right">Pinyin</div>
+                </div>
+            </div>
+
+            <!-- Resultado de ronda -->
+            <div class="match-round-result hidden" id="match-round-result">
+                <p class="match-round-icon">🎉</p>
+                <p class="match-round-text" id="match-round-text">¡Ronda completada!</p>
+                <button class="btn btn-primary" id="match-btn-next-round">Siguiente ronda →</button>
+            </div>
+
+            <!-- Mensaje vacío -->
+            <div class="empty-state hidden" id="match-empty-state">
+                <p class="empty-icon">📭</p>
+                <p>No hay palabras con los filtros seleccionados.</p>
+                <p class="empty-hint">Prueba a seleccionar otros tags.</p>
+            </div>
+        </section>
+
+        <!-- ══════════ MODO CONVERSACIÓN ══════════ -->
+        <section class="conversation-area hidden" id="mode-conversation">
+
+            <!-- Cabecera del chat -->
+            <div class="conv-header">
+                <div class="conv-header-info">
+                    <span class="conv-avatar">🤖</span>
+                    <span class="conv-title">Tutor de Chino</span>
+                </div>
+                <button class="btn-icon conv-reset hidden" id="conv-btn-reset" title="Reiniciar conversación">🗑️</button>
+            </div>
+
+            <!-- Mensajes del chat -->
+            <div class="conv-messages" id="conv-messages">
+                <!-- Estado inicial: botón de iniciar -->
+                <div class="conv-start-container" id="conv-start-container">
+                    <p class="conv-start-text">Practica chino hablando con la IA</p>
+                    <p class="conv-start-hint">La IA usará vocabulario de las lecciones</p>
+                    <button class="btn btn-primary conv-start-btn" id="conv-btn-start">🎙️ Iniciar conversación</button>
+                </div>
+            </div>
+
+            <!-- Barra de entrada (micrófono) -->
+            <div class="conv-input-bar hidden" id="conv-input-bar">
+                <button class="conv-mic-btn" id="conv-btn-mic" title="Pulsa para hablar / parar">
+                    <span class="mic-icon">🎤</span>
+                    <span class="mic-label">Pulsa para hablar</span>
+                </button>
+            </div>
+
+            <!-- Indicador de "API key requerida" -->
+            <div class="conv-no-key hidden" id="conv-no-key">
+                <p>⚠️ Necesitas configurar tu API key de OpenAI</p>
+                <button class="btn btn-secondary" id="conv-btn-open-settings">Abrir configuración</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="/static/js/app.js"></script>
+    <script src="/static/js/conversation.js"></script>
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("/sw.js")
+                .then(() => console.log("SW registered"))
+                .catch(e => console.warn("SW registration failed:", e));
+        }
+    </script>
+</body>
+</html>
