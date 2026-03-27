@@ -1,6 +1,6 @@
 {
   "tag_groups": {
-    "Lección": ["lección-1", "lección-2", "lección-3", "lección-4", "lección-5"],
+    "Lección": ["lección-1", "lección-2", "lección-3", "lección-4", "lección-5", "lección-6"],
     "Tipo de palabra": ["pronombres", "verbos", "sustantivos", "adjetivos", "partículas", "adverbios", "números", "clasificadores", "expresiones"],
     "Tema": ["familia", "tiempo", "comida", "animales", "lugares", "escuela", "países", "saludos"]
   },
@@ -662,6 +662,153 @@
       "pinyin": "méiyǒu",
       "translation": "no tener; no haber",
       "tags": ["lección-5", "adverbios"]
+    },
+    {
+      "id": 95,
+      "hanzi": "在",
+      "pinyin": "zài",
+      "translation": "estar en; en",
+      "tags": ["lección-6", "verbos", "lugares"]
+    },
+    {
+      "id": 96,
+      "hanzi": "这儿",
+      "pinyin": "zhèr",
+      "translation": "aquí",
+      "tags": ["lección-6", "pronombres", "lugares"]
+    },
+    {
+      "id": 97,
+      "hanzi": "那儿",
+      "pinyin": "nàr",
+      "translation": "allí",
+      "tags": ["lección-6", "pronombres", "lugares"]
+    },
+    {
+      "id": 98,
+      "hanzi": "售货员",
+      "pinyin": "shòuhuòyuán",
+      "translation": "vendedor/a; dependiente",
+      "tags": ["lección-6", "sustantivos"]
+    },
+    {
+      "id": 99,
+      "hanzi": "些",
+      "pinyin": "xiē",
+      "translation": "algunos/as",
+      "tags": ["lección-6", "clasificadores"]
+    },
+    {
+      "id": 100,
+      "hanzi": "上",
+      "pinyin": "shàng",
+      "translation": "encima de; sobre",
+      "tags": ["lección-6", "sustantivos", "lugares"]
+    },
+    {
+      "id": 101,
+      "hanzi": "下",
+      "pinyin": "xià",
+      "translation": "debajo de",
+      "tags": ["lección-6", "sustantivos", "lugares"]
+    },
+    {
+      "id": 102,
+      "hanzi": "我们",
+      "pinyin": "wǒmen",
+      "translation": "nosotros/as",
+      "tags": ["lección-6", "pronombres"]
+    },
+    {
+      "id": 103,
+      "hanzi": "这些",
+      "pinyin": "zhèxiē",
+      "translation": "estos/estas",
+      "tags": ["lección-6", "pronombres"]
+    },
+    {
+      "id": 104,
+      "hanzi": "里",
+      "pinyin": "lǐ",
+      "translation": "dentro de; en",
+      "tags": ["lección-6", "sustantivos", "lugares"]
+    },
+    {
+      "id": 105,
+      "hanzi": "医院",
+      "pinyin": "yīyuàn",
+      "translation": "hospital",
+      "tags": ["lección-6", "sustantivos", "lugares"]
+    },
+    {
+      "id": 106,
+      "hanzi": "水果",
+      "pinyin": "shuǐguǒ",
+      "translation": "fruta",
+      "tags": ["lección-6", "sustantivos", "comida"]
+    },
+    {
+      "id": 107,
+      "hanzi": "朋友",
+      "pinyin": "péngyou",
+      "translation": "amigo/a",
+      "tags": ["lección-6", "sustantivos"]
+    },
+    {
+      "id": 108,
+      "hanzi": "医生",
+      "pinyin": "yīshēng",
+      "translation": "médico/a",
+      "tags": ["lección-6", "sustantivos"]
+    },
+    {
+      "id": 109,
+      "hanzi": "学生",
+      "pinyin": "xuéshēng",
+      "translation": "estudiante",
+      "tags": ["lección-6", "sustantivos", "escuela"]
+    },
+    {
+      "id": 110,
+      "hanzi": "上面",
+      "pinyin": "shàngmiàn",
+      "translation": "encima; arriba",
+      "tags": ["lección-6", "sustantivos", "lugares"]
+    },
+    {
+      "id": 111,
+      "hanzi": "下面",
+      "pinyin": "xiàmiàn",
+      "translation": "debajo; abajo",
+      "tags": ["lección-6", "sustantivos", "lugares"]
+    },
+    {
+      "id": 112,
+      "hanzi": "前面",
+      "pinyin": "qiánmiàn",
+      "translation": "delante",
+      "tags": ["lección-6", "sustantivos", "lugares"]
+    },
+    {
+      "id": 113,
+      "hanzi": "后面",
+      "pinyin": "hòumiàn",
+      "translation": "detrás",
+      "tags": ["lección-6", "sustantivos", "lugares"]
+    },
+    {
+      "id": 114,
+      "hanzi": "里面",
+      "pinyin": "lǐmiàn",
+      "translation": "dentro",
+      "tags": ["lección-6", "sustantivos", "lugares"]
+    },
+    {
+      "id": 115,
+      "hanzi": "外面",
+      "pinyin": "wàimiàn",
+      "translation": "fuera",
+      "tags": ["lección-6", "sustantivos", "lugares"]
     }
   ]
 }

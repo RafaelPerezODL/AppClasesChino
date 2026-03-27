@@ -207,6 +207,19 @@ Empieza diciendo que quieres ir a la tienda y pregúntame si quiero ir contigo. 
 
     `ESCENARIO: Es mi primer día en China y no sé nada.
 Empieza con una situación cotidiana: cómo preguntar un precio, pedir comida, o presentarme. Hazme practicar una situación útil.`,
+
+    // ── Lección 6: Ubicaciones y posiciones ──
+    `ESCENARIO: Estamos en una frutería y busco las manzanas.
+Empieza diciendo que eres el vendedor (售货员) y pregúntame qué busco. Usa 在哪儿/在那儿/水果/苹果.`,
+
+    `ESCENARIO: Necesito encontrar el hospital de la escuela.
+Empieza preguntándome si sé dónde está el hospital (医院在哪儿) o si nuestra escuela tiene uno. Usa 学校里/后面/前面.`,
+
+    `ESCENARIO: Estamos describiendo dónde están las cosas en una habitación.
+Empieza preguntándome dónde está algo (在哪儿) y yo uso palabras de posición. Usa 上面/下面/里面/外面/前面/后面.`,
+
+    `ESCENARIO: Mi amigo está enfermo y quiero llevarlo al médico.
+Empieza preguntándome qué le pasa a mi amigo (朋友) o si quiero ir al hospital. Usa 医生/医院/想去/看.`,
 ];
 
 function pickRandomScenario() {

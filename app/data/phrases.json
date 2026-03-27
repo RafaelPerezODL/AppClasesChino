@@ -237,6 +237,83 @@
       "pinyin_words": ["tā", "mǎi", "le", "sān", "gè", "bēizi"],
       "translation": "Ella compró tres vasos.",
       "lesson": "lección-5"
+    },
+    {
+      "id": 35,
+      "hanzi": "苹果在哪儿？",
+      "pinyin_words": ["píngguǒ", "zài", "nǎr"],
+      "translation": "¿Dónde están las manzanas?",
+      "lesson": "lección-6"
+    },
+    {
+      "id": 36,
+      "hanzi": "苹果在那儿。",
+      "pinyin_words": ["píngguǒ", "zài", "nàr"],
+      "translation": "Las manzanas están allí.",
+      "lesson": "lección-6"
+    },
+    {
+      "id": 37,
+      "hanzi": "这些苹果上有字。",
+      "pinyin_words": ["zhèxiē", "píngguǒ", "shàng", "yǒu", "zì"],
+      "translation": "Estas manzanas tienen caracteres encima.",
+      "lesson": "lección-6"
+    },
+    {
+      "id": 38,
+      "hanzi": "那个字是什么？",
+      "pinyin_words": ["nàge", "zì", "shì", "shénme"],
+      "translation": "¿Qué carácter es ese?",
+      "lesson": "lección-6"
+    },
+    {
+      "id": 39,
+      "hanzi": "我们学校里有医院吗？",
+      "pinyin_words": ["wǒmen", "xuéxiào", "lǐ", "yǒu", "yīyuàn", "ma"],
+      "translation": "¿Hay hospital en nuestra escuela?",
+      "lesson": "lección-6"
+    },
+    {
+      "id": 40,
+      "hanzi": "学校的医院在哪儿？",
+      "pinyin_words": ["xuéxiào", "de", "yīyuàn", "zài", "nǎr"],
+      "translation": "¿Dónde está el hospital de la escuela?",
+      "lesson": "lección-6"
+    },
+    {
+      "id": 41,
+      "hanzi": "在水果商店后面。",
+      "pinyin_words": ["zài", "shuǐguǒ", "shāngdiàn", "hòumiàn"],
+      "translation": "Detrás de la frutería.",
+      "lesson": "lección-6"
+    },
+    {
+      "id": 42,
+      "hanzi": "我的朋友想去看医生。",
+      "pinyin_words": ["wǒ", "de", "péngyou", "xiǎng", "qù", "kàn", "yīshēng"],
+      "translation": "Mi amigo quiere ir a ver al médico.",
+      "lesson": "lección-6"
+    },
+    {
+      "id": 43,
+      "hanzi": "我们学校里有一个很大的水果商店。",
+      "pinyin_words": ["wǒmen", "xuéxiào", "lǐ", "yǒu", "yí", "gè", "hěn", "dà", "de", "shuǐguǒ", "shāngdiàn"],
+      "translation": "En nuestra escuela hay una frutería muy grande.",
+      "lesson": "lección-6"
+    },
+    {
+      "id": 44,
+      "hanzi": "很多学生在那儿买东西。",
+      "pinyin_words": ["hěn", "duō", "xuéshēng", "zài", "nàr", "mǎi", "dōngxi"],
+      "translation": "Muchos estudiantes compran cosas allí.",
+      "lesson": "lección-6"
+    },
+    {
+      "id": 45,
+      "hanzi": "今天中午我去商店买了一些苹果。",
+      "pinyin_words": ["jīntiān", "zhōngwǔ", "wǒ", "qù", "shāngdiàn", "mǎi", "le", "yìxiē", "píngguǒ"],
+      "translation": "Hoy al mediodía fui a la tienda y compré unas manzanas.",
+      "lesson": "lección-6"
     }
   ]
 }

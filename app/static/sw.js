@@ -2,7 +2,7 @@
    学中文  —  Service Worker (PWA offline support)
    ══════════════════════════════════════════════════════════ */
 
-const CACHE_NAME = "xuzhongwen-v1";
+const CACHE_NAME = "xuzhongwen-v2";
 
 // Assets to pre-cache for offline use
 const PRECACHE_URLS = [
