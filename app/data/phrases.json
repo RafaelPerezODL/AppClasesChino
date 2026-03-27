@@ -314,6 +314,216 @@
       "pinyin_words": ["jīntiān", "zhōngwǔ", "wǒ", "qù", "shāngdiàn", "mǎi", "le", "yìxiē", "píngguǒ"],
       "translation": "Hoy al mediodía fui a la tienda y compré unas manzanas.",
       "lesson": "lección-6"
+    },
+    {
+      "id": 46,
+      "hanzi": "他是我爸爸。",
+      "pinyin_words": ["tā", "shì", "wǒ", "bàba"],
+      "translation": "Él es mi papá.",
+      "lesson": "lección-1"
+    },
+    {
+      "id": 47,
+      "hanzi": "你好，我是老师。",
+      "pinyin_words": ["nǐ hǎo", "wǒ", "shì", "lǎoshī"],
+      "translation": "Hola, soy la profesora.",
+      "lesson": "lección-1"
+    },
+    {
+      "id": 48,
+      "hanzi": "她是墨西哥人。",
+      "pinyin_words": ["tā", "shì", "Mòxīgērén"],
+      "translation": "Ella es mexicana.",
+      "lesson": "lección-1"
+    },
+    {
+      "id": 49,
+      "hanzi": "你们好！",
+      "pinyin_words": ["nǐmen", "hǎo"],
+      "translation": "¡Hola a todos!",
+      "lesson": "lección-1"
+    },
+    {
+      "id": 50,
+      "hanzi": "他的妈妈是英国人吗？",
+      "pinyin_words": ["tā", "de", "māma", "shì", "Yīngguórén", "ma"],
+      "translation": "¿Su mamá es inglesa?",
+      "lesson": "lección-1"
+    },
+    {
+      "id": 51,
+      "hanzi": "你家有几个人？",
+      "pinyin_words": ["nǐ", "jiā", "yǒu", "jǐ", "gè", "rén"],
+      "translation": "¿Cuántas personas hay en tu familia?",
+      "lesson": "lección-2"
+    },
+    {
+      "id": 52,
+      "hanzi": "她的女儿很小。",
+      "pinyin_words": ["tā", "de", "nǚ'ér", "hěn", "xiǎo"],
+      "translation": "Su hija es muy pequeña.",
+      "lesson": "lección-2"
+    },
+    {
+      "id": 53,
+      "hanzi": "这个苹果很大。",
+      "pinyin_words": ["zhège", "píngguǒ", "hěn", "dà"],
+      "translation": "Esta manzana es muy grande.",
+      "lesson": "lección-2"
+    },
+    {
+      "id": 54,
+      "hanzi": "他今年几岁？",
+      "pinyin_words": ["tā", "jīnnián", "jǐ", "suì"],
+      "translation": "¿Cuántos años tiene él este año?",
+      "lesson": "lección-2"
+    },
+    {
+      "id": 55,
+      "hanzi": "现在八月了。",
+      "pinyin_words": ["xiànzài", "bā", "yuè", "le"],
+      "translation": "Ahora ya es agosto.",
+      "lesson": "lección-2"
+    },
+    {
+      "id": 56,
+      "hanzi": "他会说中文吗？",
+      "pinyin_words": ["tā", "huì", "shuō", "zhōngwén", "ma"],
+      "translation": "¿Él sabe hablar chino?",
+      "lesson": "lección-3"
+    },
+    {
+      "id": 57,
+      "hanzi": "对不起，我不会写这个字。",
+      "pinyin_words": ["duìbuqǐ", "wǒ", "bú", "huì", "xiě", "zhège", "zì"],
+      "translation": "Perdón, no sé escribir este carácter.",
+      "lesson": "lección-3"
+    },
+    {
+      "id": 58,
+      "hanzi": "你看，这么写。",
+      "pinyin_words": ["nǐ", "kàn", "zhème", "xiě"],
+      "translation": "Mira, se escribe así.",
+      "lesson": "lección-3"
+    },
+    {
+      "id": 59,
+      "hanzi": "老师今天说中文。",
+      "pinyin_words": ["lǎoshī", "jīntiān", "shuō", "zhōngwén"],
+      "translation": "Hoy la profesora habla en chino.",
+      "lesson": "lección-3"
+    },
+    {
+      "id": 60,
+      "hanzi": "我会读汉字。",
+      "pinyin_words": ["wǒ", "huì", "dú", "hànzì"],
+      "translation": "Yo sé leer caracteres chinos.",
+      "lesson": "lección-3"
+    },
+    {
+      "id": 61,
+      "hanzi": "上午你想去哪儿？",
+      "pinyin_words": ["shàngwǔ", "nǐ", "xiǎng", "qù", "nǎr"],
+      "translation": "¿A dónde quieres ir por la mañana?",
+      "lesson": "lección-4"
+    },
+    {
+      "id": 62,
+      "hanzi": "我爱吃米饭。",
+      "pinyin_words": ["wǒ", "ài", "chī", "mǐfàn"],
+      "translation": "Me encanta comer arroz.",
+      "lesson": "lección-4"
+    },
+    {
+      "id": 63,
+      "hanzi": "今天下午我想去学校。",
+      "pinyin_words": ["jīntiān", "xiàwǔ", "wǒ", "xiǎng", "qù", "xuéxiào"],
+      "translation": "Esta tarde quiero ir a la escuela.",
+      "lesson": "lección-4"
+    },
+    {
+      "id": 64,
+      "hanzi": "他想去饭馆吃菜。",
+      "pinyin_words": ["tā", "xiǎng", "qù", "fànguǎn", "chī", "cài"],
+      "translation": "Él quiere ir al restaurante a comer.",
+      "lesson": "lección-4"
+    },
+    {
+      "id": 65,
+      "hanzi": "明天上午我去买杯子。",
+      "pinyin_words": ["míngtiān", "shàngwǔ", "wǒ", "qù", "mǎi", "bēizi"],
+      "translation": "Mañana por la mañana voy a comprar vasos.",
+      "lesson": "lección-4"
+    },
+    {
+      "id": 66,
+      "hanzi": "这个杯子多少钱？",
+      "pinyin_words": ["zhège", "bēizi", "duōshao", "qián"],
+      "translation": "¿Cuánto cuesta este vaso?",
+      "lesson": "lección-5"
+    },
+    {
+      "id": 67,
+      "hanzi": "昨天你去哪儿了？",
+      "pinyin_words": ["zuótiān", "nǐ", "qù", "nǎr", "le"],
+      "translation": "¿A dónde fuiste ayer?",
+      "lesson": "lección-5"
+    },
+    {
+      "id": 68,
+      "hanzi": "我没有钱买。",
+      "pinyin_words": ["wǒ", "méiyǒu", "qián", "mǎi"],
+      "translation": "No tengo dinero para comprar.",
+      "lesson": "lección-5"
+    },
+    {
+      "id": 69,
+      "hanzi": "他昨天买了五个苹果。",
+      "pinyin_words": ["tā", "zuótiān", "mǎi", "le", "wǔ", "gè", "píngguǒ"],
+      "translation": "Ayer él compró cinco manzanas.",
+      "lesson": "lección-5"
+    },
+    {
+      "id": 70,
+      "hanzi": "出租车司机去学校。",
+      "pinyin_words": ["chūzūchē", "sījī", "qù", "xuéxiào"],
+      "translation": "El taxista va a la escuela.",
+      "lesson": "lección-5"
+    },
+    {
+      "id": 71,
+      "hanzi": "医院在学校前面。",
+      "pinyin_words": ["yīyuàn", "zài", "xuéxiào", "qiánmiàn"],
+      "translation": "El hospital está delante de la escuela.",
+      "lesson": "lección-6"
+    },
+    {
+      "id": 72,
+      "hanzi": "你的朋友在这儿吗？",
+      "pinyin_words": ["nǐ", "de", "péngyou", "zài", "zhèr", "ma"],
+      "translation": "¿Tu amigo está aquí?",
+      "lesson": "lección-6"
+    },
+    {
+      "id": 73,
+      "hanzi": "商店外面有很多学生。",
+      "pinyin_words": ["shāngdiàn", "wàimiàn", "yǒu", "hěn", "duō", "xuéshēng"],
+      "translation": "Fuera de la tienda hay muchos estudiantes.",
+      "lesson": "lección-6"
+    },
+    {
+      "id": 74,
+      "hanzi": "水果在杯子下面。",
+      "pinyin_words": ["shuǐguǒ", "zài", "bēizi", "xiàmiàn"],
+      "translation": "La fruta está debajo del vaso.",
+      "lesson": "lección-6"
+    },
+    {
+      "id": 75,
+      "hanzi": "我们是学生，她是医生。",
+      "pinyin_words": ["wǒmen", "shì", "xuéshēng", "tā", "shì", "yīshēng"],
+      "translation": "Nosotros somos estudiantes, ella es médica.",
+      "lesson": "lección-6"
     }
   ]
 }
