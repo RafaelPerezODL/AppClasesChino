@@ -875,6 +875,14 @@ body {
     background: #fde8e8;
 }
 
+.dd-piece.distractor-used {
+    opacity: 0.25;
+    pointer-events: none;
+    cursor: default;
+    transform: scale(0.9);
+    border-style: dashed;
+}
+
 .dd-piece-ghost {
     position: fixed;
     z-index: 9999;

@@ -582,12 +582,20 @@ function showPhrase() {
     dd.dropZone.appendChild(dd.placeholder);
     dd.placeholder.classList.remove("hidden");
 
-    // Create shuffled pinyin pieces
-    const shuffled = [...phrase.pinyin_words];
-    shuffle(shuffled);
+    // Create pieces: correct words + 2× distractor pinyin from vocabulary
+    const correctWords = [...phrase.pinyin_words];
+    const numDistractors = correctWords.length * 2;
+
+    const allPinyin = state.allWords.map(w => w.pinyin);
+    const available = [...new Set(allPinyin)].filter(p => !correctWords.includes(p));
+    shuffle(available);
+    const distractors = available.slice(0, numDistractors);
+
+    const allPieces = [...correctWords, ...distractors];
+    shuffle(allPieces);
 
     dd.pieces.innerHTML = '';
-    shuffled.forEach((word, i) => {
+    allPieces.forEach((word, i) => {
         const piece = document.createElement("div");
         piece.className = "dd-piece";
         piece.textContent = word;
@@ -808,9 +816,8 @@ function checkIfDropZoneEmpty() {
 
 function updateCheckButton() {
     if (state.ddSolved) return;
-    const phrase = state.phraseDeck[state.phraseIndex];
     const piecesInZone = dd.dropZone.querySelectorAll(".dd-piece");
-    dd.btnCheck.disabled = piecesInZone.length !== phrase.pinyin_words.length;
+    dd.btnCheck.disabled = piecesInZone.length === 0;
 }
 
 
@@ -835,6 +842,12 @@ function checkPhraseOrder() {
 
         piecesInZone.forEach(p => {
             p.classList.add("correct");
+            p.draggable = false;
+        });
+
+        // Dim leftover distractors
+        dd.pieces.querySelectorAll(".dd-piece").forEach(p => {
+            p.classList.add("distractor-used");
             p.draggable = false;
         });
 
